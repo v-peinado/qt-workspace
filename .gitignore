@@ -13,6 +13,8 @@ projects/*
 build/
 build-*/
 cmake-build-*/
+build-Debug/
+build-Release/
 
 # ============================================
 # CMake

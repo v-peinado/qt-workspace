@@ -153,6 +153,39 @@ O en Qt Creator: `Build > Run CMake`
 
 ---
 
+O con el script:
+```bash
+../../scripts/build.sh --clean
+```
+
+### Opción C: Script automático
+
+El script `build.sh` facilita el desarrollo con opciones útiles:
+```bash
+cd projects/mi-proyecto
+
+# Build básico (Debug por defecto)
+../../scripts/build.sh
+
+# Build y ejecutar automáticamente
+../../scripts/build.sh --run
+
+# Clean build (útil tras añadir archivos)
+../../scripts/build.sh --clean
+
+# Build en Release
+../../scripts/build.sh Release
+
+# Combinaciones
+../../scripts/build.sh --clean --run
+../../scripts/build.sh Release --clean
+```
+
+**Opciones disponibles:**
+- **Debug/Release**: Tipo de compilación (Debug por defecto)
+- **--clean**: Limpia build ANTES de compilar (orden: limpiar → configurar → compilar)
+- **--run**: Ejecuta automáticamente tras compilar
+
 ## Debugging
 
 ### Qt Creator (visual)
