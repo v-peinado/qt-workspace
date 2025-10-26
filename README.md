@@ -215,15 +215,8 @@ gdb ./MiProyecto
 ### Ejecutar tests
 
 **Línea de comandos:**
-```bash
-cd build
-ctest --output-on-failure
-```
 
-**Qt Creator:**
-1. Panel izquierdo: **Tests** (icono de matraz)
-2. Click derecho en test > **Run**
-3. Ve resultados en panel inferior
+**PROXIMAMENTE**
 
 ---
 
